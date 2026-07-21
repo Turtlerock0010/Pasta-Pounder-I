@@ -1950,7 +1950,7 @@
 			(uuid "9090c850-03ad-4a1d-a8ce-5ef1ddace504")
 		)
 		(instances
-			(project "Carbonara Robot 1"
+			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "U1")
 					(unit 1)
@@ -2099,7 +2099,7 @@
 			(uuid "7155904c-3c28-473d-ae0c-d2d8da90bb15")
 		)
 		(instances
-			(project "Carbonara Robot 1"
+			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "J1")
 					(unit 1)
