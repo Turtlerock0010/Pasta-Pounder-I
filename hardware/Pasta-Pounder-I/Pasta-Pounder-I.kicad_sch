@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Pasta Pounder I")
+		(rev "v1.0")
 		(company "Team Carbonara")
+		(comment 1 "Developed By: Daniel Principe & Saurya Shrestha")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -6512,16 +6514,6 @@
 		)
 		(uuid "d30aaf78-945f-4c0e-87f8-4eca4357b947")
 	)
-	(text "https://www.ti.com/lit/ds/symlink/drv8874.pdf?ts=1784644974226"
-		(exclude_from_sim no)
-		(at 332.486 28.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07cc6fe6-ea98-4494-9d11-e22cb6def3f5")
-	)
 	(text "Ref Pwr"
 		(exclude_from_sim no)
 		(at 264.668 121.92 0)
@@ -6543,6 +6535,19 @@
 			)
 		)
 		(uuid "3848605d-19b5-47c8-b1d4-39b9eb041b79")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 336.55 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3bcf68f4-c635-4e57-a794-f2992fec8334")
 	)
 	(text "Ref Pwr"
 		(exclude_from_sim no)
@@ -6566,6 +6571,18 @@
 			)
 		)
 		(uuid "4c477f19-42bf-44e0-ac40-f40f2e82b059")
+	)
+	(text "Extra Robot Information"
+		(exclude_from_sim no)
+		(at 343.916 4.826 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "624fb961-a05b-480e-bceb-f85a8eb5964e")
 	)
 	(text "Misc."
 		(exclude_from_sim no)
@@ -6625,6 +6642,18 @@
 		)
 		(uuid "9b5cfc51-4c60-4871-89df-6dd75fddf4b9")
 	)
+	(text "1. Keep the button switches close to the MCU as possible\n2. Generally aim for the 470µF caps on the H-Bridges to be large electrolyics\n3. Keep good separation between sensitive and high power electronics\n	3.1. ESCs, Battery in, maybe motor ports, power management etc are all high power\n	3.2. ESP32, drivers, servo, etc are all sensitive\n4. Parts must generally be hot swappable with enough elbow (No 0402s and maybe 0603s!)\n"
+		(exclude_from_sim no)
+		(at 299.212 15.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "9b771d31-1c5d-4b62-b919-3aa2c6fc11dc")
+	)
 	(text "5V Buck\nConverter"
 		(exclude_from_sim no)
 		(at 45.72 185.166 0)
@@ -6646,6 +6675,18 @@
 			)
 		)
 		(uuid "b255ca05-2ac5-4898-bb39-8e75b01ef003")
+	)
+	(text "Connected Electronics"
+		(exclude_from_sim no)
+		(at 333.502 37.084 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+		)
+		(uuid "bb8f6c82-91b2-46d3-a194-11f147357897")
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
@@ -8695,6 +8736,230 @@
 		)
 		(uuid "ff02cea1-2902-440e-a95f-aa758a14ee0b")
 	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 21.59 21.59 21.59)
+		(row_heights 5.08 5.08 5.08 5.08)
+		(uuid "7f2a7930-17ad-4531-a19d-eb21571e6c40")
+		(cells
+			(table_cell "ESC"
+				(exclude_from_sim no)
+				(at 299.974 40.386 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "6c5febed-f7bc-442a-8d7c-b121034232ee")
+			)
+			(table_cell "Blheli_s 35A Ant Spinner ESC"
+				(exclude_from_sim no)
+				(at 321.564 40.386 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f2319de7-e9d0-47ee-9ab3-312c46010624")
+			)
+			(table_cell "~"
+				(exclude_from_sim no)
+				(at 343.154 40.386 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "06eb5441-7018-478b-8310-3dc0857b0fde")
+			)
+			(table_cell "9g Servo"
+				(exclude_from_sim no)
+				(at 299.974 45.466 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "2c92544b-5a46-452e-af2a-9e82e406e17a")
+			)
+			(table_cell "SG90"
+				(exclude_from_sim no)
+				(at 321.564 45.466 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "f9d65955-3682-4b94-8447-6a40ebebe8ae")
+			)
+			(table_cell "Yes"
+				(exclude_from_sim no)
+				(at 343.154 45.466 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "3c219771-de56-4b82-80cf-0255817f006f")
+			)
+			(table_cell "DT Motors"
+				(exclude_from_sim no)
+				(at 299.974 50.546 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "c0db28e2-b6bb-40fa-ab11-c2e6d7612f2d")
+			)
+			(table_cell "Mini Pro Brushed"
+				(exclude_from_sim no)
+				(at 321.564 50.546 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "dfe11e18-e0ed-4eec-8221-30bdb6eedaf3")
+			)
+			(table_cell "Yes"
+				(exclude_from_sim no)
+				(at 343.154 50.546 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "63b77aa3-966d-4c29-9f80-70d0c3ebb13d")
+			)
+			(table_cell "3S Battery"
+				(exclude_from_sim no)
+				(at 299.974 55.626 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+				(uuid "f953a71d-af20-4335-8663-36545bd1a527")
+			)
+			(table_cell "Zeee 3S LiPo Battery"
+				(exclude_from_sim no)
+				(at 321.564 55.626 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "0d02b30d-41ca-4d6b-be5f-bac6d6bdab5a")
+			)
+			(table_cell "~"
+				(exclude_from_sim no)
+				(at 343.154 55.626 0)
+				(size 21.59 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "d588290d-58a4-4aed-a5fc-0c6d72e1125f")
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape input)
 		(at 25.4 50.8 180)
@@ -9807,6 +10072,84 @@
 			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 107.95 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "043f9f34-dba2-4a90-8130-bf6eb76c346f")
+		(property "Reference" "#PWR031"
+			(at 107.95 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 107.95 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 107.95 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b96e7acb-33b0-4fb1-ae40-f67628977c30")
+		)
+		(instances
+			(project "Pasta-Pounder-I"
+				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14183,84 +14526,6 @@
 			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 107.95 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73ad7e70-ee8b-4d8d-b17e-6899d2855ac7")
-		(property "Reference" "#PWR031"
-			(at 107.95 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 107.95 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62fab013-02cb-43d0-8f78-32e7a3d7ac15")
-		)
-		(instances
-			(project "Pasta-Pounder-I"
-				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
