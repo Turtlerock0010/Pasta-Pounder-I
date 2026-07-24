@@ -7171,6 +7171,10 @@
 		(uuid "9a757f10-2796-4ee1-b078-84abf7c0fef4")
 	)
 	(no_connect
+		(at 118.11 144.78)
+		(uuid "b75da4d5-a4fc-4c06-be1d-7774040e997e")
+	)
+	(no_connect
 		(at 135.89 86.36)
 		(uuid "bf13fb4d-2df8-4638-9d93-15f94d94cf5a")
 	)
@@ -7438,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 149.86 144.78)
+			(xy 133.35 144.78) (xy 151.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7468,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 143.51) (xy 132.08 144.78)
+			(xy 133.35 143.51) (xy 133.35 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7495,6 +7499,16 @@
 			(type default)
 		)
 		(uuid "254b4277-626e-4879-ad8d-8e16a6ffaa7e")
+	)
+	(wire
+		(pts
+			(xy 115.57 132.08) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cf0aa0-787c-467e-97a9-9061e26a3869")
 	)
 	(wire
 		(pts
@@ -7588,7 +7602,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 147.32) (xy 149.86 149.86)
+			(xy 151.13 147.32) (xy 151.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7908,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 135.89) (xy 121.92 138.43)
+			(xy 118.11 147.32) (xy 118.11 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8098,16 +8112,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 132.08) (xy 107.95 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8402dd67-29a3-468d-ad39-06d374f24a7f")
-	)
-	(wire
-		(pts
 			(xy 261.62 50.8) (xy 259.08 50.8)
 		)
 		(stroke
@@ -8115,16 +8119,6 @@
 			(type default)
 		)
 		(uuid "848c9019-d505-4561-8ee9-d98942d833c4")
-	)
-	(wire
-		(pts
-			(xy 107.95 133.35) (xy 121.92 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898a5d24-2223-4777-a628-a85300abef97")
 	)
 	(wire
 		(pts
@@ -9012,7 +9006,7 @@
 	)
 	(global_label "FLIPPER_PWM"
 		(shape input)
-		(at 149.86 142.24 180)
+		(at 151.13 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9022,7 +9016,7 @@
 		)
 		(uuid "0b49ce3c-6540-4eb6-9f2c-c1d0feae9b53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.0539 142.24 0)
+			(at 135.3239 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +9451,7 @@
 	)
 	(global_label "ESC_PWM"
 		(shape input)
-		(at 121.92 130.81 180)
+		(at 118.11 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9467,7 +9461,7 @@
 		)
 		(uuid "7c0274bd-82db-4529-a9e0-c2249ecd785a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1659 130.81 0)
+			(at 106.3559 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10072,84 +10066,6 @@
 			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 107.95 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "043f9f34-dba2-4a90-8130-bf6eb76c346f")
-		(property "Reference" "#PWR031"
-			(at 107.95 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 107.95 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b96e7acb-33b0-4fb1-ae40-f67628977c30")
-		)
-		(instances
-			(project "Pasta-Pounder-I"
-				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10799,6 +10715,88 @@
 			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 123.19 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "120b84fd-8d44-4f56-9e92-30fa494d64f6")
+		(property "Reference" "J6"
+			(at 125.73 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESC_Terminal"
+			(at 125.73 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4827aaf2-4f77-4fb3-94e6-c70ec0c7f905")
+		)
+		(pin "1"
+			(uuid "b95c5da3-e7ba-4e92-8f34-2f18a70ed765")
+		)
+		(instances
+			(project "Pasta-Pounder-I"
+				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -13106,7 +13104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 149.86 0)
+		(at 151.13 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13117,7 +13115,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f689b88-b484-4709-a2e7-1be2cf8a41fd")
 		(property "Reference" "#PWR036"
-			(at 149.86 156.21 0)
+			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13128,7 +13126,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 154.94 0)
+			(at 151.13 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13138,7 +13136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 149.86 0)
+			(at 151.13 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +13147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 149.86 0)
+			(at 151.13 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13160,7 +13158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 149.86 0)
+			(at 151.13 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13966,7 +13964,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 127 133.35 0)
+		(at 123.19 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13977,7 +13975,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e9590e-736b-4b78-b0c1-9ec12832016c")
 		(property "Reference" "J4"
-			(at 129.54 132.0799 0)
+			(at 125.73 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13988,7 +13986,7 @@
 			)
 		)
 		(property "Value" "ESC_Port"
-			(at 129.54 134.6199 0)
+			(at 125.73 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13999,7 +13997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 133.35 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14010,7 +14008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 133.35 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14021,7 +14019,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 133.35 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14288,7 +14286,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 154.94 144.78 0)
+		(at 156.21 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14299,7 +14297,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f83c4fe-033b-432d-8533-13871837f221")
 		(property "Reference" "J5"
-			(at 157.48 143.5099 0)
+			(at 158.75 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14310,7 +14308,7 @@
 			)
 		)
 		(property "Value" "Flipper_port"
-			(at 157.48 146.0499 0)
+			(at 158.75 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14321,7 +14319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 144.78 0)
+			(at 156.21 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14332,7 +14330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 144.78 0)
+			(at 156.21 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14343,7 +14341,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 144.78 0)
+			(at 156.21 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15138,7 +15136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 138.43 0)
+		(at 118.11 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15149,7 +15147,7 @@
 		(fields_autoplaced yes)
 		(uuid "82760ee4-84ae-430f-812c-d0749eadbfe2")
 		(property "Reference" "#PWR030"
-			(at 121.92 144.78 0)
+			(at 118.11 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15160,7 +15158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 143.51 0)
+			(at 118.11 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15170,7 +15168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 138.43 0)
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15181,7 +15179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 138.43 0)
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15192,7 +15190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 138.43 0)
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15830,6 +15828,83 @@
 			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "903e0c1a-bcb4-4435-850d-17dd50057e09")
+		(property "Reference" "#PWR037"
+			(at 118.11 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3b7d77f-3930-43fc-90c1-8dbc88ba322c")
+		)
+		(instances
+			(project "Pasta-Pounder-I"
+				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16604,6 +16679,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 115.57 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ff9434b-1827-4da1-9228-437b2ec5c4aa")
+		(property "Reference" "#PWR031"
+			(at 115.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 115.57 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 115.57 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dfd9470-3c7b-45d0-b550-ef7ff5ff4adc")
+		)
+		(instances
+			(project "Pasta-Pounder-I"
+				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 173.99 180)
 		(unit 1)
@@ -16686,7 +16838,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 132.08 143.51 0)
+		(at 133.35 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16697,7 +16849,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6f2d303-ff90-4536-b252-6ca82a43ca73")
 		(property "Reference" "#PWR034"
-			(at 132.08 147.32 0)
+			(at 133.35 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16708,7 +16860,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 132.08 138.43 0)
+			(at 133.35 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16718,7 +16870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 143.51 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16729,7 +16881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 143.51 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16740,7 +16892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 143.51 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
